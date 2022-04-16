@@ -1,14 +1,24 @@
 {
-    "Post": {
-      "title": { "string": {} },
-      "comments": {
-        "hasMany": "Comment"
-      }
+  "Job": {
+    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "businessName": { "regexp": "[A-Z][a-z]{5,10}" },
+    "businessLogo": {
+      "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
     },
-    "Comment": {
-      "body": { "string": {} },
-      "post": {
-        "belongsTo": "Post"
-      }
-    }
+    "description": {
+      "loremParagraph": { "minSentences": 1, "maxSentences": 3 }
+    },
+    "earnings": { "int": { "min": 10000, "max": 30000 } },
+    "estimatedTime": { "int": { "min": 1, "max": 24 } },
+  },
+  "Announcement": {
+    "title": { "string": {} },
+    "subtitle": { "string": {} },
+    "description": { "string": {} }
+  },
+  "Community": {
+    "title": { "string": {} },
+    "description": { "string": {} },
+    "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
   }
+}
