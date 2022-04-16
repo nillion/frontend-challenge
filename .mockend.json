@@ -6,7 +6,7 @@
       "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
     },
     "description": {
-      "loremParagraph": { "minSentences": 1, "maxSentences": 3 }
+      "loremSentences": { "minLength": 100, "maxLength": 200 }
     },
     "earnings": { "int": { "min": 10000, "max": 30000 } },
     "estimatedTime": { "int": { "min": 1, "max": 24 } }
