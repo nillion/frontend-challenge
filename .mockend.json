@@ -9,7 +9,7 @@
       "loremParagraph": { "minSentences": 1, "maxSentences": 3 }
     },
     "earnings": { "int": { "min": 10000, "max": 30000 } },
-    "estimatedTime": { "int": { "min": 1, "max": 24 } },
+    "estimatedTime": { "int": { "min": 1, "max": 24 } }
   },
   "Announcement": {
     "title": { "string": {} },
