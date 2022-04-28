@@ -1,24 +1,28 @@
 {
   "Job": {
+    "businessLogo": {
+      "regexp": "https://i\\.pravatar\\.cc/150"
+    },
     "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
     "businessName": { "regexp": "[A-Z][a-z]{5,10}" },
-    "businessLogo": {
-      "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
-    },
-    "description": {
-      "loremSentences": { "minLength": 100, "maxLength": 200 }
-    },
     "earnings": { "int": { "min": 10000, "max": 30000 } },
     "estimatedTime": { "int": { "min": 1, "max": 24 } }
   },
   "Announcement": {
-    "title": { "string": {} },
-    "subtitle": { "string": {} },
-    "description": { "string": {} }
+    "avatar": {
+      "regexp": "https://i\\.pravatar\\.cc/150"
+    },
+    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "subtitle": { "loremWords": { "minLength": 10, "maxLength": 20 } },
+    "description": {
+      "loremSentences": { "minLength": 100, "maxLength": 200 }
+    }
   },
   "Community": {
-    "title": { "string": {} },
-    "description": { "string": {} },
-    "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
+    "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
+    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "description": {
+      "loremSentences": { "minLength": 100, "maxLength": 200 }
+    }
   }
 }
