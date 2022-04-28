@@ -18,7 +18,7 @@
       "loremSentences": { "minLength": 100, "maxLength": 200 }
     }
   },
-  "Community": {
+  "Resource": {
     "image": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
     "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
     "description": {
