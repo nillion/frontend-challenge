@@ -26,6 +26,6 @@
     }
   },
   "Post": {
-    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
+    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } }
   }
 }
