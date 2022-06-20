@@ -24,5 +24,8 @@
     "description": {
       "loremSentences": { "minLength": 100, "maxLength": 200 }
     }
+  },
+  "Post": {
+    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
   }
 }
